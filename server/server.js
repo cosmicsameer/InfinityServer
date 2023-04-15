@@ -2,7 +2,7 @@ const express = require('express');
 const MongoClient = require('mongodb').MongoClient;
 const cors = require('cors');
 // Connect to MongoDB
-const url = 'mongodb+srv://sameeratpug:<password>@cluster0.rnwegk7.mongodb.net/?retryWrites=true&w=majority';
+const url = 'mongodb+srv://sameeratpug:infinity@cluster0.rnwegk7.mongodb.net/?retryWrites=true&w=majority';
 const client = new MongoClient(url, { useNewUrlParser: true, useUnifiedTopology: true });
 const jwt = require('jsonwebtoken');
 const secretKey = "1234567890";
